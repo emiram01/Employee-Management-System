@@ -25,12 +25,12 @@
    <right>
       <AnchorPane prefHeight="640.0" prefWidth="615.0" BorderPane.alignment="CENTER">
          <children>
-            <Label layoutX="44.0" layoutY="404.0" text="Username" textFill="#04aeda">
+            <Label layoutX="44.0" layoutY="404.0" text="Username" textFill="#a1cd95">
                <font>
                   <Font name="Calibri Bold" size="36.0" />
                </font>
             </Label>
-            <Label layoutX="49.0" layoutY="464.0" text="Password" textFill="#04aeda">
+            <Label layoutX="49.0" layoutY="464.0" text="Password" textFill="#a1cd95">
                <font>
                   <Font name="Calibri Bold" size="36.0" />
                </font>
@@ -42,7 +42,7 @@
             </Label>
             <TextField fx:id="username" layoutX="219.0" layoutY="408.0" prefHeight="33.0" prefWidth="314.0" promptText="Username" />
             <PasswordField fx:id="password" layoutX="218.0" layoutY="468.0" prefHeight="34.0" prefWidth="315.0" promptText="Password" />
-            <Button fx:id="loginButton" layoutX="251.0" layoutY="646.0" mnemonicParsing="false" onAction="#checkLogin" prefHeight="50.0" prefWidth="97.0" style="-fx-background-color: #04aeda;" text="Log In">
+            <Button fx:id="loginButton" layoutX="251.0" layoutY="646.0" mnemonicParsing="false" onAction="#checkLogin" prefHeight="50.0" prefWidth="97.0" style="-fx-background-color: #a1cd95;" text="Log In">
                <font>
                   <Font name="Calibri Bold" size="24.0" />
                </font></Button>

@@ -9,7 +9,7 @@
    <center>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="logoutButton" layoutX="1070.0" layoutY="722.0" mnemonicParsing="false" onAction="#logOut" prefHeight="50.0" prefWidth="97.0" style="-fx-background-color: #04aeda;" text="Log Out" textOverrun="CLIP">
+            <Button fx:id="logoutButton" layoutX="1070.0" layoutY="722.0" mnemonicParsing="false" onAction="#logOut" prefHeight="50.0" prefWidth="97.0" style="-fx-background-color: #a1cd95;" text="Log Out" textOverrun="CLIP">
                <font>
                   <Font name="Calibri Bold" size="21.0" />
                </font>
