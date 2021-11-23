@@ -17,8 +17,8 @@ public class Login
 
     @FXML private Button loginButton;
     @FXML private Label loginText;
-    @FXML private TextField username;
-    @FXML private PasswordField password;
+    @FXML private TextField usernameField;
+    @FXML private PasswordField passwordField;
 
     public void checkLogin(ActionEvent event) throws IOException
     {
@@ -28,19 +28,20 @@ public class Login
     private void validate() throws IOException
     {
         App app = new App();
+        AppSettings settings = new AppSettings();
 
-        if(username.getText().toString().equals("abhishek") && password.getText().toString().equals("comp380"))
+        if(usernameField.getText().toString().equals(settings.getUserName()) && passwordField.getText().toString().equals(settings.getPassword()))
         {
             loginText.setText("");
             app.changeScene("mainPage.fxml");
         }
-        else if(username.getText().isEmpty() && password.getText().isEmpty())
+        else if(usernameField.getText().isEmpty() && passwordField.getText().isEmpty())
             loginText.setText("Please enter your username and password.");
 
-        else if(username.getText().isEmpty())
+        else if(usernameField.getText().isEmpty())
             loginText.setText("Please enter your username.");
 
-        else if(password.getText().isEmpty())
+        else if(passwordField.getText().isEmpty())
             loginText.setText("Please enter your password.");
 
         else

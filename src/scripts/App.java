@@ -17,7 +17,7 @@ public class App extends Application
         window = primaryStage;
         primaryStage.setResizable(false);
         Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
-        primaryStage.setTitle("Employee Management Sytem");
+        primaryStage.setTitle("Employee Management System");
         primaryStage.setScene(new Scene(root, 1200, 800));
         primaryStage.show();
     }

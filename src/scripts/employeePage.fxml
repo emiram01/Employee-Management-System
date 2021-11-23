@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #1a1a1a;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scripts.EmployeePage">
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="logoutButton" layoutX="240.0" layoutY="648.0" mnemonicParsing="false" onAction="#logOut" prefHeight="57.0" prefWidth="127.0" style="-fx-background-color: f06678;" text="Log Out" textOverrun="CLIP">
+               <font>
+                  <Font name="Calibri Bold" size="27.0" />
+               </font>
+            </Button>
+            <TableView fx:id="table" layoutX="425.0" prefHeight="800.0" prefWidth="775.0" style="-fx-background-color: #2a2a2a;">
+              <columns>
+                <TableColumn fx:id="idCol" prefWidth="58.66668701171875" resizable="false" text="ID" />
+                <TableColumn fx:id="nameCol" prefWidth="142.6666259765625" resizable="false" text="Name" />
+                  <TableColumn fx:id="addressCol" prefWidth="242.0001220703125" resizable="false" text="Address" />
+                  <TableColumn fx:id="phoneNumberCol" prefWidth="157.99981689453125" resizable="false" text="Phone Number" />
+                  <TableColumn fx:id="salaryCol" prefWidth="171.9998779296875" resizable="false" text="Salary" />
+              </columns>
+            </TableView>
+            <Button fx:id="editEmployeeButton" layoutX="107.0" layoutY="115.0" mnemonicParsing="false" onAction="#editEmployee" prefHeight="101.0" prefWidth="197.0" style="-fx-background-color: #94cfce;" text="Edit Employee" textOverrun="CLIP">
+               <font>
+                  <Font name="Calibri Bold" size="27.1" />
+               </font>
+            </Button>
+            <Button fx:id="backButton" layoutX="50.0" layoutY="648.0" mnemonicParsing="false" onAction="#goBack" prefHeight="57.0" prefWidth="127.0" style="-fx-background-color: a1cd95;" text="Back" textOverrun="CLIP">
+               <font>
+                  <Font name="Calibri Bold" size="27.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

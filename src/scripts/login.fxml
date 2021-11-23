@@ -40,8 +40,8 @@
                   <Font name="Calibri Bold" size="42.0" />
                </font>
             </Label>
-            <TextField fx:id="username" layoutX="219.0" layoutY="408.0" prefHeight="33.0" prefWidth="314.0" promptText="Username" />
-            <PasswordField fx:id="password" layoutX="218.0" layoutY="468.0" prefHeight="34.0" prefWidth="315.0" promptText="Password" />
+            <TextField fx:id="usernameField" layoutX="219.0" layoutY="408.0" prefHeight="33.0" prefWidth="314.0" promptText="Username" />
+            <PasswordField fx:id="passwordField" layoutX="218.0" layoutY="468.0" prefHeight="34.0" prefWidth="315.0" promptText="Password" />
             <Button fx:id="loginButton" layoutX="251.0" layoutY="646.0" mnemonicParsing="false" onAction="#checkLogin" prefHeight="50.0" prefWidth="97.0" style="-fx-background-color: #a1cd95;" text="Log In">
                <font>
                   <Font name="Calibri Bold" size="24.0" />
