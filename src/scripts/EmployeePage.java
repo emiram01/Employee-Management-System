@@ -17,7 +17,6 @@ public class EmployeePage
 {
     public File employeeData;
 
-    @FXML private Button editEmployeeButton;
     @FXML private Button backButton;
     @FXML private Button logoutButton;
 
@@ -38,12 +37,6 @@ public class EmployeePage
         salaryCol.setCellValueFactory(new PropertyValueFactory<>("salary"));
 
         table.setItems(getEmployees());
-    }
-
-    public void editEmployee(ActionEvent event) throws IOException
-    {
-        //edit employee
-        //update table
     }
 
     public void goBack(ActionEvent event) throws IOException
