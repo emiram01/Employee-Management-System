@@ -39,24 +39,31 @@
             </Text>
          </children></AnchorPane>
    </left>
-   <right>
+   <top>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Employee Info" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+   </top>
+   <center>
       <AnchorPane prefHeight="800.0" prefWidth="808.0" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="logOutButton" layoutX="234.0" layoutY="703.0" mnemonicParsing="false" onAction="#logOut" prefHeight="53.0" prefWidth="129.0" style="-fx-background-color: f06678;" text="Log Out" textAlignment="CENTER" textOverrun="CLIP">
+            <Button fx:id="logOutButton" layoutX="242.0" layoutY="661.0" mnemonicParsing="false" onAction="#logOut" prefHeight="53.0" prefWidth="129.0" style="-fx-background-color: f06678;" text="Log Out" textAlignment="CENTER" textOverrun="CLIP">
                <font>
                   <Font name="Calibri Bold" size="28.0" />
                </font>
             </Button>
-            <Button fx:id="backButton" layoutY="703.0" mnemonicParsing="false" onAction="#goBack" prefHeight="53.0" prefWidth="129.0" style="-fx-background-color: a1cd95;" text="Back" textAlignment="CENTER" textOverrun="CLIP">
+            <Button fx:id="backButton" layoutY="661.0" mnemonicParsing="false" onAction="#goBack" prefHeight="53.0" prefWidth="129.0" style="-fx-background-color: a1cd95;" text="Back" textAlignment="CENTER" textOverrun="CLIP">
                <font>
                   <Font name="Calibri Bold" size="28.0" />
                </font>
             </Button>
-            <TextField fx:id="employeeID" layoutX="47.0" layoutY="114.0" prefHeight="25.0" prefWidth="226.0" />
-            <TextField fx:id="employeeName" layoutX="47.0" layoutY="198.0" prefHeight="25.0" prefWidth="226.0" />
-            <TextField fx:id="employeeSalary" layoutX="47.0" layoutY="279.0" prefHeight="25.0" prefWidth="226.0" />
-            <TextField fx:id="employeePhoneNum" layoutX="47.0" layoutY="353.0" prefHeight="25.0" prefWidth="226.0" />
-            <TextField fx:id="employeeAddress" layoutX="47.0" layoutY="429.0" prefHeight="25.0" prefWidth="226.0" />
+            <TextField fx:id="employeeID" layoutX="47.0" layoutY="114.0" prefHeight="25.0" prefWidth="226.0" promptText="001" />
+            <TextField fx:id="employeeName1" layoutX="47.0" layoutY="198.0" prefHeight="25.0" prefWidth="107.0" promptText="First" />
+            <TextField fx:id="employeeSalary1" layoutX="47.0" layoutY="279.0" prefHeight="25.0" prefWidth="177.0" promptText="xxx,xxx,xxx" />
+            <TextField fx:id="employeePhoneNum1" layoutX="47.0" layoutY="353.0" prefHeight="25.0" prefWidth="42.0" promptText="xxx" />
+            <TextField fx:id="employeeAddress1" layoutX="43.0" layoutY="422.0" prefHeight="25.0" prefWidth="43.0" promptText="1234" />
             <Button fx:id="submitButton" layoutX="129.0" layoutY="555.0" mnemonicParsing="false" onAction="#checkSubmit" style="-fx-background-color: #94cfce;" text="Submit">
                <font>
                   <Font name="Calibri Bold" size="28.0" />
@@ -67,14 +74,33 @@
                   <Font name="Calibri Bold" size="24.0" />
                </font>
             </Label>
+            <TextField fx:id="employeeName2" layoutX="162.0" layoutY="198.0" prefHeight="25.0" prefWidth="109.0" promptText="Last" />
+            <TextField fx:id="employeePhoneNum2" layoutX="108.0" layoutY="352.0" prefHeight="25.0" prefWidth="42.0" promptText="xxx" />
+            <TextField fx:id="employeePhoneNum3" layoutX="184.0" layoutY="353.0" prefHeight="25.0" prefWidth="57.0" promptText="xxxx" />
+            <Text fill="WHITE" layoutX="160.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-" textAlignment="CENTER" wrappingWidth="12.796875">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="89.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text=")" textAlignment="CENTER" wrappingWidth="12.796875">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="34.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(" textAlignment="CENTER" wrappingWidth="12.796875">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <TextField fx:id="employeeAddress2" layoutX="95.0" layoutY="422.0" prefHeight="25.0" prefWidth="131.0" promptText="Street Name" />
+            <TextField fx:id="employeeAddress3" layoutX="233.0" layoutY="422.0" prefHeight="25.0" prefWidth="37.0" promptText="st" />
+            <TextField fx:id="employeeSalary2" layoutX="241.0" layoutY="279.0" prefHeight="25.0" prefWidth="31.0" promptText="xx" />
+            <Text fill="WHITE" layoutX="227.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="." textAlignment="CENTER" wrappingWidth="12.796875">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
          </children>
       </AnchorPane>
-   </right>
-   <top>
-      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Employee Info" textAlignment="CENTER" BorderPane.alignment="CENTER">
-         <font>
-            <Font name="System Bold" size="36.0" />
-         </font>
-      </Text>
-   </top>
+   </center>
 </BorderPane>

@@ -2,8 +2,8 @@ package scripts;
 
 public class AppSettings
 {
-    private String username = "1";
-    private String password = "1";
+    private String username = "abhishek";
+    private String password = "comp380";
 
     public void setNewLogin(String newUser, String newPass)
     {
