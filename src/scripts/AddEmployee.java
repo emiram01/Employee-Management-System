@@ -52,7 +52,7 @@ public class AddEmployee
            employeeSalary2.getText().equals("") || employeeAddress1.getText().equals("") || employeeAddress2.getText().equals("") || employeeAddress3.getText().equals("") ||
            employeePhoneNum1.getText().equals("") || employeePhoneNum3.getText().equals("") || employeePhoneNum3.getText().equals(""))
         {
-            addEmpText.setText("Missing info, please try agian.");  
+            addEmpText.setText("Missing info, please try again.");  
         }
         else
         {
