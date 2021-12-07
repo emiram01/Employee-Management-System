@@ -30,7 +30,7 @@ public class Login
         App app = new App();
         AppSettings settings = new AppSettings();
 
-        if(usernameField.getText().toString().equals(settings.getUserName()) && passwordField.getText().toString().equals(settings.getPassword()))
+        if(usernameField.getText().toString().toLowerCase().equals(settings.getUserName()) && passwordField.getText().toString().equals(settings.getPassword()))
         {
             loginText.setText("");
             app.changeScene("mainPage.fxml");
