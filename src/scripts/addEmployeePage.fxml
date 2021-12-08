@@ -25,12 +25,12 @@
                   <Font name="Calibri Bold" size="28.0" />
                </font>
             </Button>
-            <TextField fx:id="employeeID" layoutX="175.0" layoutY="198.0" prefHeight="25.0" prefWidth="74.0" promptText="001" />
-            <TextField fx:id="employeeName1" layoutX="235.0" layoutY="254.0" prefHeight="25.0" prefWidth="150.0" promptText="First" />
-            <TextField fx:id="employeeSalary1" layoutX="238.0" layoutY="445.0" prefHeight="25.0" prefWidth="177.0" promptText="xxx,xxx,xxx" />
-            <TextField fx:id="employeePhoneNum1" layoutX="387.0" layoutY="317.0" prefHeight="25.0" prefWidth="42.0" promptText="xxx" />
-            <TextField fx:id="employeeAddress1" layoutX="262.0" layoutY="384.0" prefHeight="25.0" prefWidth="43.0" promptText="1234" />
-            <Button fx:id="submitButton" layoutX="310.0" layoutY="536.0" mnemonicParsing="false" onAction="#checkSubmit" style="-fx-background-color: #94cfce;" text="Submit">
+            <TextField fx:id="employeeID" layoutX="164.0" layoutY="160.0" prefHeight="25.0" prefWidth="74.0" promptText="001" />
+            <TextField fx:id="employeeName1" layoutX="224.0" layoutY="216.0" prefHeight="25.0" prefWidth="150.0" promptText="First" />
+            <TextField fx:id="employeeSalary1" layoutX="245.0" layoutY="406.0" prefHeight="25.0" prefWidth="177.0" promptText="xxx,xxx,xxx" />
+            <TextField fx:id="employeePhoneNum1" layoutX="376.0" layoutY="285.0" prefHeight="25.0" prefWidth="35.0" promptText="xxx" />
+            <TextField fx:id="employeeAddress1" layoutX="253.0" layoutY="345.0" prefHeight="25.0" prefWidth="43.0" promptText="1234" />
+            <Button fx:id="submitButton" layoutX="311.0" layoutY="500.0" mnemonicParsing="false" onAction="#checkSubmit" style="-fx-background-color: #94cfce;" text="Submit">
                <font>
                   <Font name="Calibri Bold" size="28.0" />
                </font>
@@ -40,60 +40,65 @@
                   <Font name="Calibri Bold" size="24.0" />
                </font>
             </Label>
-            <TextField fx:id="employeeName2" layoutX="397.0" layoutY="254.0" prefHeight="25.0" prefWidth="150.0" promptText="Last" />
-            <TextField fx:id="employeePhoneNum2" layoutX="448.0" layoutY="316.0" prefHeight="25.0" prefWidth="42.0" promptText="xxx" />
-            <TextField fx:id="employeePhoneNum3" layoutX="524.0" layoutY="317.0" prefHeight="25.0" prefWidth="57.0" promptText="xxxx" />
-            <Text fill="WHITE" layoutX="500.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-" textAlignment="CENTER" wrappingWidth="12.796875">
+            <TextField fx:id="employeeName2" layoutX="386.0" layoutY="216.0" prefHeight="25.0" prefWidth="150.0" promptText="Last" />
+            <TextField fx:id="employeePhoneNum2" layoutX="437.0" layoutY="284.0" prefHeight="25.0" prefWidth="35.0" promptText="xxx" />
+            <TextField fx:id="employeePhoneNum3" layoutX="495.0" layoutY="285.0" prefHeight="25.0" prefWidth="43.0" promptText="xxxx" />
+            <Text fill="WHITE" layoutX="478.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-" textAlignment="CENTER" wrappingWidth="12.796875">
                <font>
                   <Font size="32.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="429.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text=")" textAlignment="CENTER" wrappingWidth="12.796875">
+            <Text fill="WHITE" layoutX="418.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text=")" textAlignment="CENTER" wrappingWidth="12.796875">
                <font>
                   <Font size="32.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="370.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(" textAlignment="CENTER" wrappingWidth="12.796875">
+            <Text fill="WHITE" layoutX="359.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(" textAlignment="CENTER" wrappingWidth="12.796875">
                <font>
                   <Font size="32.0" />
                </font>
             </Text>
-            <TextField fx:id="employeeAddress2" layoutX="314.0" layoutY="384.0" prefHeight="25.0" prefWidth="131.0" promptText="Street Name" />
-            <TextField fx:id="employeeAddress3" layoutX="452.0" layoutY="384.0" prefHeight="25.0" prefWidth="37.0" promptText="st" />
-            <TextField fx:id="employeeSalary2" layoutX="430.0" layoutY="446.0" prefHeight="25.0" prefWidth="31.0" promptText="xx" />
-            <Text fill="WHITE" layoutX="416.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="." textAlignment="CENTER" wrappingWidth="12.796875">
+            <TextField fx:id="employeeAddress2" layoutX="305.0" layoutY="345.0" prefHeight="25.0" prefWidth="131.0" promptText="Street Name" />
+            <TextField fx:id="employeeAddress3" layoutX="443.0" layoutY="345.0" prefHeight="25.0" prefWidth="37.0" promptText="st" />
+            <TextField fx:id="employeeSalary2" layoutX="437.0" layoutY="407.0" prefHeight="25.0" prefWidth="29.0" promptText="xx" />
+            <Text fill="WHITE" layoutX="423.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="." textAlignment="CENTER" wrappingWidth="12.796875">
                <font>
                   <Font size="32.0" />
                </font>
             </Text>
-            <Text fill="#a1cd95" layoutX="122.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:">
+            <Text fill="#a1cd95" layoutX="111.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:">
                <font>
                   <Font name="Calibri Bold" size="36.0" />
                </font>
             </Text>
-            <Text fill="#a1cd95" layoutX="120.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+            <Text fill="#a1cd95" layoutX="109.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
                <font>
                   <Font name="Calibri Bold" size="36.0" />
                </font>
             </Text>
-            <Text fill="#a1cd95" layoutX="124.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salary:">
+            <Text fill="#a1cd95" layoutX="109.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salary:">
                <font>
                   <Font name="Calibri Bold" size="36.0" />
                </font>
             </Text>
-            <Text fill="#a1cd95" layoutX="120.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number:">
+            <Text fill="#a1cd95" layoutX="109.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number:">
                <font>
                   <Font name="Calibri Bold" size="36.0" />
                </font>
             </Text>
-            <Text fill="#a1cd95" layoutX="120.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address:">
+            <Text fill="#a1cd95" layoutX="109.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address:">
                <font>
                   <Font name="Calibri Bold" size="36.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="170.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Employee Info" textAlignment="CENTER">
+            <Text fill="WHITE" layoutX="185.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Employee Info" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="36.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="224.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$" textAlignment="CENTER" wrappingWidth="12.796875">
+               <font>
+                  <Font size="32.0" />
                </font>
             </Text>
          </children>

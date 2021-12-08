@@ -11,8 +11,20 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Label;
 
-public class AddEmployee
+public class EditPage
 {
+    public static String oldID;
+    public static String oldName1;
+    public static String oldName2;
+    public static String oldSalary1;
+    public static String oldSalary2;
+    public static String oldPhoneNum1;
+    public static String oldPhoneNum2;
+    public static String oldPhoneNum3;
+    public static String oldAddress1;
+    public static String oldAddress2;
+    public static String oldAddress3;
+
     @FXML private Button backButton;
     @FXML private Button logoutButton;
     @FXML private TextField employeeID;
@@ -29,6 +41,12 @@ public class AddEmployee
     @FXML private Button submitButton;
     @FXML private Label addEmpText;
 
+    @FXML
+    public void initialize()
+    {
+        setTextFields();
+    }
+
     public void goBack(ActionEvent event) throws IOException
     {
         App app = new App();
@@ -44,6 +62,21 @@ public class AddEmployee
     public void checkSubmit(ActionEvent event) throws IOException
     {
         validate();
+    }
+
+    private void setTextFields()
+    {
+        employeeID.setText(oldID);
+        employeeName1.setText(oldName1);
+        employeeName2.setText(oldName2);
+        employeeSalary1.setText(oldSalary1);
+        employeeSalary2.setText(oldSalary2);
+        employeeAddress1.setText(oldAddress1);
+        employeeAddress2.setText(oldAddress2);
+        employeeAddress3.setText(oldAddress3);
+        employeePhoneNum1.setText(oldPhoneNum1);
+        employeePhoneNum2.setText(oldPhoneNum2);
+        employeePhoneNum3.setText(oldPhoneNum3);
     }
 
     private void validate() throws IOException
@@ -65,22 +98,12 @@ public class AddEmployee
         }
         else
         {
+            DeleteEmployee.delete(oldID);
             String name = employeeName1.getText().replaceAll(" ", "") + " " + employeeName2.getText().replaceAll(" ", "");
             String id = employeeID.getText().replaceAll(" ", "");
             String salary = "$" + employeeSalary1.getText().replaceAll(" ", "") + "." + employeeSalary2.getText().replaceAll(" ", "").substring(0, 2);
             String address = employeeAddress1.getText().replaceAll(" ", "") + " " + employeeAddress2.getText().replaceAll(" ", "") + " " + employeeAddress3.getText().replaceAll(" ", "");
             String phone = "(" + employeePhoneNum1.getText().replaceAll(" ", "").substring(0, 3) + ")" + employeePhoneNum2.getText().replaceAll(" ", "").substring(0, 3) + "-" + employeePhoneNum3.getText().replaceAll(" ", "").substring(0, 4);
-            employeeID.setText("");
-            employeeName1.setText("");
-            employeeName2.setText("");
-            employeeSalary1.setText("");
-            employeeSalary2.setText("");
-            employeeAddress1.setText("");
-            employeeAddress2.setText("");
-            employeeAddress3.setText("");
-            employeePhoneNum1.setText("");
-            employeePhoneNum2.setText("");
-            employeePhoneNum3.setText("");
 
             try(FileWriter fw = new FileWriter("src/data/EmployeeData.txt", true);
                 BufferedWriter bw = new BufferedWriter(fw);

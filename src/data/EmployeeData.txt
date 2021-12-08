@@ -2,4 +2,4 @@
 02 Demetri Garcia 8765 Somewhere st (313)321-1234 $999,000.00
 03 Saleena Torres 5678 Street st (123)333-1212 $780,000.00
 04 May Mishor 2348 Fish ave (321)222-5432 $75,000.00
-05 First Last 1111 Street st (111)222-3333 $100,000.00
+05 First Last 1111 Main st (111)222-3333 $100,000.00
