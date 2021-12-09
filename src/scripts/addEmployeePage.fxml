@@ -15,12 +15,12 @@
    <center>
       <AnchorPane prefHeight="800.0" prefWidth="808.0" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="logOutButton" layoutX="396.0" layoutY="711.0" mnemonicParsing="false" onAction="#logOut" prefHeight="53.0" prefWidth="130.0" style="-fx-background-color: f06678;" text="Log Out" textAlignment="CENTER" textOverrun="CLIP">
+            <Button fx:id="logOutButton" layoutX="396.0" layoutY="711.0" mnemonicParsing="false" onAction="#logOut" prefHeight="53.0" prefWidth="130.0" style="-fx-background-color: f06678;" stylesheets="@style.css" text="Log Out" textAlignment="CENTER" textOverrun="CLIP">
                <font>
                   <Font name="Calibri Bold" size="28.0" />
                </font>
             </Button>
-            <Button fx:id="backButton" layoutX="212.0" layoutY="711.0" mnemonicParsing="false" onAction="#goBack" prefHeight="53.0" prefWidth="130.0" style="-fx-background-color: a1cd95;" text="Back" textAlignment="CENTER" textOverrun="CLIP">
+            <Button fx:id="backButton" layoutX="212.0" layoutY="711.0" mnemonicParsing="false" onAction="#goBack" prefHeight="53.0" prefWidth="130.0" style="-fx-background-color: a1cd95;" stylesheets="@style.css" text="Back" textAlignment="CENTER" textOverrun="CLIP">
                <font>
                   <Font name="Calibri Bold" size="28.0" />
                </font>
@@ -30,7 +30,7 @@
             <TextField fx:id="employeeSalary1" layoutX="245.0" layoutY="406.0" prefHeight="25.0" prefWidth="177.0" promptText="xxx,xxx,xxx" />
             <TextField fx:id="employeePhoneNum1" layoutX="376.0" layoutY="285.0" prefHeight="25.0" prefWidth="35.0" promptText="xxx" />
             <TextField fx:id="employeeAddress1" layoutX="253.0" layoutY="345.0" prefHeight="25.0" prefWidth="43.0" promptText="1234" />
-            <Button fx:id="submitButton" layoutX="311.0" layoutY="500.0" mnemonicParsing="false" onAction="#checkSubmit" style="-fx-background-color: #94cfce;" text="Submit">
+            <Button fx:id="submitButton" layoutX="311.0" layoutY="500.0" mnemonicParsing="false" onAction="#checkSubmit" style="-fx-background-color: #94cfce;" stylesheets="@style.css" text="Submit">
                <font>
                   <Font name="Calibri Bold" size="28.0" />
                </font>

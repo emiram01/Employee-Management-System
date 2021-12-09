@@ -13,12 +13,12 @@
    <top>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="logoutButton" layoutX="240.0" layoutY="648.0" mnemonicParsing="false" onAction="#logOut" prefHeight="57.0" prefWidth="127.0" style="-fx-background-color: f06678;" text="Log Out" textOverrun="CLIP">
+            <Button fx:id="logoutButton" layoutX="240.0" layoutY="648.0" mnemonicParsing="false" onAction="#logOut" prefHeight="57.0" prefWidth="127.0" style="-fx-background-color: f06678;" stylesheets="@style.css" text="Log Out" textOverrun="CLIP">
                <font>
                   <Font name="Calibri Bold" size="27.0" />
                </font>
             </Button>
-            <TableView fx:id="table" layoutX="425.0" prefHeight="800.0" prefWidth="775.0" style="-fx-background-color: #2a2a2a;">
+            <TableView fx:id="table" layoutX="425.0" prefHeight="800.0" prefWidth="775.0" style="-fx-background-color: #2a2a2a;" stylesheets="@style.css">
               <columns>
                 <TableColumn fx:id="idCol" prefWidth="58.66668701171875" resizable="false" text="ID" />
                 <TableColumn fx:id="nameCol" prefWidth="142.6666259765625" resizable="false" text="Name" />
@@ -27,7 +27,7 @@
                   <TableColumn fx:id="salaryCol" prefWidth="171.9998779296875" resizable="false" text="Salary" />
               </columns>
             </TableView>
-            <Button fx:id="backButton" layoutX="50.0" layoutY="648.0" mnemonicParsing="false" onAction="#goBack" prefHeight="57.0" prefWidth="127.0" style="-fx-background-color: a1cd95;" text="Back" textOverrun="CLIP">
+            <Button fx:id="backButton" layoutX="50.0" layoutY="648.0" mnemonicParsing="false" onAction="#goBack" prefHeight="57.0" prefWidth="127.0" style="-fx-background-color: a1cd95;" stylesheets="@style.css" text="Back" textOverrun="CLIP">
                <font>
                   <Font name="Calibri Bold" size="27.0" />
                </font>
@@ -43,12 +43,12 @@
                   <Font name="Calibri Bold" size="19.0" />
                </font>
             </Text>
-            <Button fx:id="editButton" layoutX="134.0" layoutY="258.0" mnemonicParsing="false" onAction="#edit" prefHeight="72.0" prefWidth="160.0" style="-fx-background-color: #94cfce;" text="Edit" textOverrun="CLIP">
+            <Button fx:id="editButton" layoutX="134.0" layoutY="258.0" mnemonicParsing="false" onAction="#edit" prefHeight="72.0" prefWidth="160.0" style="-fx-background-color: #94cfce;" stylesheets="@style.css" text="Edit" textOverrun="CLIP">
                <font>
                   <Font name="Calibri Bold" size="38.0" />
                </font>
             </Button>
-            <Button fx:id="deleteButton" layoutX="134.0" layoutY="364.0" mnemonicParsing="false" onAction="#delete" prefHeight="72.0" prefWidth="160.0" style="-fx-background-color: #94cfce;" text="Delete" textOverrun="CLIP">
+            <Button fx:id="deleteButton" layoutX="134.0" layoutY="364.0" mnemonicParsing="false" onAction="#delete" prefHeight="72.0" prefWidth="160.0" style="-fx-background-color: #94cfce;" stylesheets="@style.css" text="Delete" textOverrun="CLIP">
                <font>
                   <Font name="Calibri Bold" size="38.0" />
                </font>

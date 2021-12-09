@@ -31,16 +31,16 @@
    <right>
       <AnchorPane prefHeight="640.0" prefWidth="615.0" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="logOutButton" layoutX="-190.0" layoutY="569.0" mnemonicParsing="false" onAction="#logOut" prefHeight="160.0" prefWidth="380.0" style="-fx-background-color: f06678;" text="Log Out" textAlignment="CENTER" textOverrun="CLIP">
+            <Button fx:id="logOutButton" layoutX="-190.0" layoutY="569.0" mnemonicParsing="false" onAction="#logOut" prefHeight="160.0" prefWidth="380.0" style="-fx-background-color: f06678;" stylesheets="@style.css" text="Log Out" textAlignment="CENTER" textOverrun="CLIP">
                <font>
                   <Font name="Calibri Bold" size="57.0" />
                </font></Button>
-            <Button fx:id="addEmployeeButton" layoutX="-190.0" layoutY="69.0" mnemonicParsing="false" onAction="#addEmployee" prefHeight="160.0" prefWidth="380.0" style="-fx-background-color: #94cfce;" text="Add Employee" textAlignment="CENTER" textOverrun="CLIP">
+            <Button fx:id="addEmployeeButton" layoutX="-190.0" layoutY="69.0" mnemonicParsing="false" onAction="#addEmployee" prefHeight="160.0" prefWidth="380.0" style="-fx-background-color: #94cfce;" stylesheets="@style.css" text="Add Employee" textAlignment="CENTER" textOverrun="CLIP">
                <font>
                   <Font name="Calibri Bold" size="51.5" />
                </font>
             </Button>
-            <Button fx:id="viewEmployeesButton" layoutX="-190.0" layoutY="320.0" mnemonicParsing="false" onAction="#viewEmployees" prefHeight="160.0" prefWidth="380.0" style="-fx-background-color: a1cd95;" text="View Employees" textAlignment="CENTER" textOverrun="CLIP">
+            <Button fx:id="viewEmployeesButton" layoutX="-190.0" layoutY="320.0" mnemonicParsing="false" onAction="#viewEmployees" prefHeight="160.0" prefWidth="380.0" style="-fx-background-color: a1cd95;" stylesheets="@style.css" text="View Employees" textAlignment="CENTER" textOverrun="CLIP">
                <font>
                   <Font name="Calibri Bold" size="46.5" />
                </font>

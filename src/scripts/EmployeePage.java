@@ -61,7 +61,7 @@ public class EmployeePage
                 errorText.setText("ID does not exist");
         }
         else
-            errorText.setText("Please enter an ID.");
+            errorText.setText("Please enter an ID");
     }
 
     public void delete(ActionEvent event) throws IOException
@@ -78,7 +78,7 @@ public class EmployeePage
                 errorText.setText("ID does not exist");
         }
         else
-            errorText.setText("Please enter an ID.");
+            errorText.setText("Please enter an ID");
     }
 
     public void goBack(ActionEvent event) throws IOException
