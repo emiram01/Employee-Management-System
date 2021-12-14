@@ -35,7 +35,7 @@
                   <Font name="Calibri Bold" size="28.0" />
                </font>
             </Button>
-            <Label fx:id="addEmpText" layoutX="245.0" layoutY="106.0" textFill="RED">
+            <Label fx:id="addEmpText" layoutX="190.0" layoutY="84.0" textFill="RED">
                <font>
                   <Font name="Calibri Bold" size="24.0" />
                </font>
