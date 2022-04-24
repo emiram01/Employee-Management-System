@@ -1,10 +1,17 @@
-# runtimeterror
+# Employee Management System
+
+## 📝 About
+
 A software that allows Admins to keep track of employee attendance and payroll. The Admin creates employee profiles  for  each  employee  by  entering  relevant  personal  information  (name,  job  position,  qualification,  etc.).  They can search for an employee, add employee, edit employee details, set status as active/inactive, check the salary details and breakdown of the salary of each employee by entering the employee ID and date.
 
 USERNAME: abhishek
 PASSWORD: comp380
 
-resources: <br/>
+## 🎞 Demo
+
+https://user-images.githubusercontent.com/67139085/164958122-e862e034-9b32-4c9f-b79e-dcafd57ac143.mp4
+
+## 📚 Resources
 - https://www.geeksforgeeks.org/program-for-employee-management-system/ <br/>
 - https://itsourcecode.com/free-projects/java-projects/employee-management-system-project-in-java-with-source-code/ <br/>
 - https://github.com/NaveenKumarK219/Core-Java-Employee-Management-System/blob/master/EmployeeManagement.java <br/>
